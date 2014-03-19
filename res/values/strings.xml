@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SportsInfo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="begin">Welcome to Sports Info: One stop solution to all your sports needs."</string>
+    <string name="follow"> Select a game</string>
+    <string name="hockey_history_description">History of Hockey</string>
+    <string name="main_description">Main Screen</string>
+    <string name="hockey_description">Hockey Icon</string>
+    <string name="baseball_description">Baseball Icon</string>
+    <string name="football_description">Football Icon</string>
+    <string name="soccer_description">Soccer Icon</string>
+    <string name="about_football_description">About Football</string>
+    <string name="rules_soccer_description">Rules of Soccer</string>
+    <string name="title_activity_football">Football</string>
+    <string name="title_activity_hockey">Hockey</string>
+    <string name="title_activity_soccer">Soccer</string>
+    <string name="title_activity_baseball">Baseball</string>
+    <string name="title_activity_about_football">AboutFootball</string>
+    <string name="title_activity_hockey_history">HockeyHistory</string>
+    <string name="title_activity_soccer_rules">Rules of Soccer</string>
+    <string name="title_activity_baseball_leagues">Baseball Leagues</string>
+    <string name="title_activity_american_league">American League</string>
+    <string name="title_activity_national_league">National League</string>
+    <string name="BackButton">Back to Games</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/locker_room"
+    tools:context=".Welcome" >
+
+    <ImageButton
+        android:id="@+id/hockey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/soccer"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/hockey" 
+        android:contentDescription="@string/hockey_description"/>
+
+    <ImageButton
+        android:id="@+id/soccer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="37dp"
+        android:src="@drawable/soccer" 
+        android:contentDescription="@string/soccer_description"/>
+
+    <ImageButton
+        android:id="@+id/baseball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/soccer"
+        android:src="@drawable/baseball" 
+        android:contentDescription="@string/baseball_description" />
+
+    <ImageButton
+        android:id="@+id/football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/hockey"
+        android:src="@drawable/football"
+        android:contentDescription="@string/football_description" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/begin"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hockey"
+        android:layout_centerHorizontal="true"
+        android:text="@string/follow"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
